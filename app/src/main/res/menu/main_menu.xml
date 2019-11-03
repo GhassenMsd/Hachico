@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Station"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Station"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/Agenda"
+        android:enabled="true"
+        android:icon="@drawable/ic_rate_review_black_24dp"
+        android:title="Agenda"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/Notification"
+        android:enabled="true"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/Gps"
+        android:enabled="true"
+        android:icon="@drawable/ic_gps_fixed_black_24dp"
+        android:title="Gps"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+
+</menu>
+

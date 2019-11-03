@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    tools:context=".Fragments.NotificationFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewNot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />
+
+    <ProgressBar
+        android:id="@+id/homeprogress"
+        android:layout_width="90dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="428dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerViewNot"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerViewNot"
+        app:layout_constraintStart_toStartOf="@+id/recyclerViewNot"
+        app:layout_constraintTop_toTopOf="@+id/recyclerViewNot" />
+
+</android.support.constraint.ConstraintLayout>

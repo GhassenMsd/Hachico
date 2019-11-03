@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8F7"
+    tools:context=".Activities.StationSettings">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/Pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/Pic"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/montserrat"
+        android:src="@drawable/dogg"
+        android:text="Station Setting"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:divider="?android:dividerHorizontal"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pic">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Food's quantity (Gram)"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Race"
+                android:layout_width="141dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="@font/montserrat"
+                android:hint="500 g"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/Gender"
+                android:layout_width="93dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:hint="Sex"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/Gender1"
+                android:layout_width="93dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:hint="Sex"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/Gender2"
+                android:layout_width="93dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:hint="Sex"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="177dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="72dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Water's quantity(Ml)"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/BirthDate"
+                android:layout_width="141dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="64dp"
+                android:layout_marginEnd="24dp"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="@font/montserrat"
+                android:hint="0.5 L"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/time1"
+                android:layout_width="93dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:hint="Sex"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/time2"
+                android:layout_width="93dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:hint="Sex"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/time3"
+                android:layout_width="93dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="24dp"
+                android:ems="10"
+                android:hint="Sex"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/cornerbutton2"
+        android:fontFamily="@font/montserrat"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#242A3A"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/cornerbutton2"
+        android:fontFamily="@font/montserrat"
+        android:text="annuler"
+        android:textAllCaps="false"
+        android:textColor="#242A3A"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
